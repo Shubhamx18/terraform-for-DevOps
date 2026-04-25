@@ -36,3 +36,5 @@ sudo usermod -aG docker ubuntu
 
 echo "Docker installed successfully!"
 echo "Please logout and login again to use Docker without sudo."
+
+#done 
