@@ -4,7 +4,7 @@ resource "aws_key_pair" "mykey" {
   key_name   = "terra-key-ec2-${terraform.workspace}"
   public_key = file("terra_key_ec2.pub")
 }
-#---------------------------------------------------
+#-----------------------------------------------------
 
 # Creating VPC 
 resource "aws_default_vpc" "default" {
